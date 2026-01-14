@@ -5,6 +5,9 @@ export default defineCliConfig({
     projectId: '6sxjmhx4',
     dataset: 'production'
   },
+  mediaLibrary: {
+    aspectsPath: 'aspects',
+  },
   deployment: {
     /**
      * Enable auto-updates for studios.
